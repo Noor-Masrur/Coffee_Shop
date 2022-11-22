@@ -14,6 +14,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="../Coffee_Shop" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -42,7 +44,9 @@
 			<Add library="gdi32" />
 			<Add directory="C:/ProgramData/CodeBlocks/MinGW/lib" />
 		</Linker>
+		<Unit filename="include/BmpLoader.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/BmpLoader.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
